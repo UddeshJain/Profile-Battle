@@ -1,5 +1,5 @@
-const id = 'YOUR_CLIENT_ID';
-const sec = 'YOUR_SECRET_ID';
+const id = process.env.YOUR_CLIENT_ID;
+const sec = process.env.YOUR_SECRET_ID;
 const params = `?client_id=${id}&client_secret=${sec}`;
 
 function getErrorMsg(message, username) {
