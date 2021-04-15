@@ -1,8 +1,8 @@
 # Profile Battle
 
-This project is a "Profile Battle" app. It allows users to see the most popular repos for a variety of languages as well as battle two Github users to see who has the better profile. Just write your Github username and hit submit to see the `Winner`.
+This project is a "Profile Battle" app. It allows users to see the most popular repositories for various languages and battle two Github users to see who has the better profile. Just write your Github username and hit submit to see the `Winner`..
 
-See live demo [here]()
+See live demo [here](https://profile-battle.netlify.app/)
 
 ### How to run locally
 
