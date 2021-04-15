@@ -1,7 +1,7 @@
 import { ThemeConsumer } from '../../contexts/theme';
 import { FaUserFriends, FaFighterJet, FaTrophy } from 'react-icons/fa';
 
-function Instructions() {
+const Instructions = () => {
   return (
     <ThemeConsumer>
       {({ theme }) => (
@@ -17,7 +17,7 @@ function Instructions() {
               />
             </li>
             <li>
-              <h3 className="header-sm">Battle</h3>
+              <h3 className="header-sm">Battle with opponent</h3>
               <FaFighterJet
                 className={`bg-${theme}`}
                 color="#727272"
@@ -37,6 +37,6 @@ function Instructions() {
       )}
     </ThemeConsumer>
   );
-}
+};
 
 export default Instructions;

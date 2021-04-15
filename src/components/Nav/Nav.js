@@ -28,7 +28,7 @@ const Nav = () => {
                 activeStyle={activeStyle}
                 className="nav-link"
               >
-                Popular
+                Popular Repos
               </NavLink>
             </li>
           </ul>

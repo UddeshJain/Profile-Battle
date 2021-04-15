@@ -2,7 +2,7 @@ import { ThemeConsumer } from '../../contexts/theme';
 import { FaTimesCircle } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 
-function PlayerPreview({ username, onReset, label }) {
+const PlayerPreview = ({ username, onReset, label }) => {
   return (
     <ThemeConsumer>
       {({ theme }) => (
@@ -27,7 +27,7 @@ function PlayerPreview({ username, onReset, label }) {
       )}
     </ThemeConsumer>
   );
-}
+};
 
 PlayerPreview.propTypes = {
   username: PropTypes.string.isRequired,

@@ -58,7 +58,7 @@ const Results = (props) => {
               <ProfileList profile={loser.profile} />
             </Card>
           </div>
-          <Link to="/battle" className="btn dark-btn btn-space">
+          <Link to="/" className="btn dark-btn btn-space">
             Reset
           </Link>
         </React.Fragment>
